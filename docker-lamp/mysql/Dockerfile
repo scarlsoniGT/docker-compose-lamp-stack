@@ -1,5 +1,5 @@
-FROM mysql:5.6
-COPY ./my.cnf /etc/mysql/conf.d/
+FROM mysql:5.7
+COPY *.cnf /etc/mysql/conf.d/
 MAINTAINER Moyed Ansari @imansaripk
 
 ENV MYSQL_DATABASE=cg_apiserver \

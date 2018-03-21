@@ -7,6 +7,9 @@ services:
        - db_data:/var/lib/mysql
      environment:
        MYSQL_ROOT_PASSWORD: root
+       MYSQL_USER: vanilla
+       MYSQL_PASSWORD: iDirect
+       MYSQL_DATABASE: vanilla
    php:
     build: ./php
     ports:
